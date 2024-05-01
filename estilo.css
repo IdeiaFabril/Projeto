@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.body-principal{
+.body-principal, .body-artigos{
     background-image: linear-gradient(300deg, yellow , #FD6925);
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     border-bottom: solid 2px black;
     width: 100%;
     height: 70px;
-    background-color: #FD6925;
+    background-color: #616380;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,7 +40,7 @@
 }
 
 .logo-texto a:hover{
-    background-color: #616380;
+    background-color: #FD6925;
 }
 
 .menu-principal li{
@@ -58,13 +58,13 @@
 }
 
 .menu-principal li a:hover{
-    background-color: #616380;
+    background-color: #FD6925;
 }
 
 .container-intro{
     display: flex;
-    justify-content: baseline;
-    align-items: top;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin: 8px;
 }
 
@@ -76,7 +76,7 @@
     height:fit-content;
 }
 
-.titulo{
+.titulo1{
     font-family: Roboto, sans-serif;
     color: white;
     background-color: #616380;
@@ -100,8 +100,8 @@
 
 .container-artigo{
     display: flex;
-    justify-content: baseline;
-    align-items: top;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin: 8px;
 }
 
@@ -117,13 +117,13 @@
 
 .artigos{
     display: flex;
-    justify-content: baseline;
-    align-items: top;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-top: 1%;
 }
 
 .lista{
-    border: solid 2px black;
+    border: solid 1px black;
     font-family: 'Lato', sans-serif;
 }
 
@@ -135,14 +135,14 @@ table{
 th{
     color: white;
     background-color: #616380;
-    border: 1px solid #616380;
+    border: 1px solid black;
     padding: 8px;
     text-align: left;
 } 
 
 td{
     background-color: #f2f2f2;
-    border: 1px solid #616380;
+    border: 1px solid black;
     padding: 8px;
     text-align: left;
 }
@@ -156,6 +156,8 @@ td{
     width: 500px;
     height: 400px;
 }
+
+
 
 footer{
     border-top: solid 2px black;
@@ -184,4 +186,184 @@ footer{
 
 .menu2 li a:hover{
     background-color: #616380;
+}
+
+
+.login{
+    font-family: Arial, helvetica, sans-serif;
+    background-color: rgba(61, 63, 80, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+body{
+    background-image: linear-gradient(450deg, yellow, #FD6925);
+}
+
+.inserirr{
+    background-image: linear-gradient(450deg, rgb(0, 0, 0), #616380);
+}
+
+.div-input {
+    padding: 5px 0px;
+    border: none;
+    font-size: 15px;
+}
+.div-input input {
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+}
+.titulo{
+    text-align: center;
+}
+.titulo h1{
+    color: #FD6925;
+    padding: 20px;
+}
+
+.but{
+    padding: 15px 0px;
+}
+.but button{
+    background-color: #FD6925;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff9d70;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cadastroo{
+    width: 100%;
+    background-color: rgba(61, 63, 80, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.loginn{
+    width: 100%;
+    background-color: rgba(61, 63, 80, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.inserir{
+    width: 100%;
+    background-color: #FD6925;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.imagem{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius:25px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text a{
+    margin-left: 20px;
+    color: #FD6925;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #FD6925;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.menu li a:hover{
+    background-color: #ff9d70;
+}
+
+.cad h5 a{
+    color: #FD6925;
+}
+
+.menui li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menui li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.menui li a:hover{
+    background-color: #ff9d70;
+}
+
+.logo-texti a{
+    margin-left: 20px;
+    color: #000000;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.inserirBox{
+    font-family: Arial, helvetica, sans-serif;
+    background-color: #FD6925;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+.tituloi{
+    text-align: center;
+}
+.tituloi h1{
+    color: #000000;
+    padding: 20px;
+}
+
+.buti button{
+    background-color: #616380;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
 }
