@@ -1,1 +1,3 @@
+A proposta do projeto é criar uma plataforma de artigos voltados para inovações e novidades nas industrias, de forma que democratize o conhecimento e aumente a eficiência de empresas devido ao acesso a esse conhecimento. O serviço web contribui na resolução da ODS 9 - Indústria, inovação e infraestrutura.
+A construção das páginas utiliza html, css e javascript.
 Integrantes: Luís Augusto, José Pedro e Pedro Lucas.
